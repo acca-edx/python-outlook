@@ -1,4 +1,4 @@
-name,header,message,filepath
+name,subject,message,attachment
 "bob@example.com","Sporting Sales Report","Hi Bob,\n Here is the sporting goods sales report","C:\reports\sports-sales.txt"
 "tracy@example.com","Furniture Sales Report","Hi Tracy,\n Here is the furniture sales report","C:\reports\furniture-sales.txt"
 "phillip@example.com","Food Sales Report","Hi Bob,\n Here is food sales report","C:\reports\food-sales.txt"
