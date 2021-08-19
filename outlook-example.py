@@ -29,7 +29,7 @@ msg.Body = "Hi, this is your email"
 # Attachments.Add = Add the file from your local computer.
 ###
 
-msg.Attachments.Add(r"C:\Users\name\Downloads\data_report.csv")
+msg.Attachments.Add(r'C:\Users\name\Downloads\data_report.csv')
 
 ### Send the message
 # Now that the message is ready, it is time to send it.

@@ -9,7 +9,7 @@ import win32com.client
 # Using pandas built in function read_excel we specify the file location
 #   and a sheet_name with in that. 
 import pandas as pd
-excel_data = pd.read_excel(r"C:\Users\<name>\Documents\excel_example.xlsx",
+excel_data = pd.read_excel(r'C:\Users\<name>\Documents\excel_example.xlsx',
                            sheet_name="Sheet1") 
 
 ### Create an outlook Email as per previous example
