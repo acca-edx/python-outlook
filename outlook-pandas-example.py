@@ -26,7 +26,7 @@ for index in excel_data.index:
   msg.to = excel_data['name'][index]
   msg.Subject = excel_data['subject'][index]
   msg.Body = excel_data['message'][index]
-  msg.Attachments.Add(excel_data['attachment'][index])
+  msg.Attachments.Add(excel_data['attachment'][index].encode())
   msg.Send()
   # This is the end of the for loop code block.
 
